@@ -1,6 +1,6 @@
 class Pessoa:
-    def cumprimentar(self):
-        return f'Ola {id(self)}'
+    def cumprimentar(self):         # na criação com parâmetro já define o próprio objeto self.
+        return f'Ola {id(self)}'    # verifica-se o mesmo objeto pelo id
 
 
 if __name__ == '__main__':
